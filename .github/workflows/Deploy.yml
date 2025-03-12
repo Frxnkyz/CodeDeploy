@@ -10,7 +10,7 @@ name: deploy
 on:
   workflow_run:
     workflows:
-      - 'test.yml'
+      - 'deploy.yml'
     types: 
       - completed
   workflow_dispatch:
